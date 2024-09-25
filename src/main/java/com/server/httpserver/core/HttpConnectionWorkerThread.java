@@ -30,6 +30,13 @@ public class HttpConnectionWorkerThread extends Thread{
             inputStream = socket.getInputStream(); // to read
             outputStream = socket.getOutputStream(); //to write
 
+//            int _byte;
+//
+//            while((_byte = inputStream.read()) >= 0)
+//            {
+//                System.out.print((char) _byte);
+//            }
+
             // writing
             String html = "<html><head><title>Java http server</title></head><body><h1>This page was served by java http server</h1></body</html>";
 
