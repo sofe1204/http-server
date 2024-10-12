@@ -58,4 +58,6 @@ public class HttpRequest extends HttpMessage{
     public HttpVersion getBestCompatibleHttpVersion() {
         return bestCompatibleHttpVersion;
     }
+
+
 }
